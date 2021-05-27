@@ -16,6 +16,18 @@ export default function Projects() {
                     <img src="https://picsum.photos/200" alt="" />
                     <h3>Squawker</h3>
                 </div>
+                <div className="item">
+                    <img src="https://picsum.photos/200" alt="" />
+                    <h3>Squawker</h3>
+                </div>
+                <div className="item">
+                    <img src="https://picsum.photos/200" alt="" />
+                    <h3>Squawker</h3>
+                </div>
+                <div className="item">
+                    <img src="https://picsum.photos/200" alt="" />
+                    <h3>Squawker</h3>
+                </div>
             </div>
         </div>
     )
