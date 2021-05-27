@@ -8,6 +8,10 @@
 
     h1{
         font-size: 50px;
+
+        @include mobile{
+            font-size: 20px;
+        }
     }
 
     .container{
@@ -16,5 +20,9 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+
+        @include mobile{
+            width: 100%;
+        }
     }
 }
