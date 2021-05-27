@@ -30,7 +30,7 @@ export default function Intro() {
                     <h3><span ref={textRef}></span></h3>
                 </div>
                 <a href="#about">
-                    <KeyboardArrowDownIcon className='icon' />
+                    <KeyboardArrowDownIcon className='icon' fontSize='large' />
                 </a>
                 
             </div>

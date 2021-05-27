@@ -12,7 +12,7 @@ export default function Contact() {
     return (
         <div className='contact' id='contact'>
             <div className="left">
-                <img src="https://picsum.photos/200" alt="" />
+                <img src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80" alt="" />
             </div>
             <div className="right">
                 <h2>Contact</h2>
