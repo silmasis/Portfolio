@@ -1,33 +1,33 @@
-import './Projects.scss'
+import './projects.scss';
+import ProjectList from '../projectList/ProjectList';
 
 export default function Projects() {
+
+    const list = [
+        {
+            id: 'squawker',
+            title: 'Squawker',
+        },
+        {
+            id: 'counter',
+            title: 'Calorie Counter',
+        },
+        {
+            id: 'mvp',
+            title: 'My Virtual Pantry',
+        },
+        {
+            id: 'band',
+            title: 'Band Website',
+        },
+    ];
     return (
         <div className='projects' id='projects'>
             <h1>Projects</h1>
-            <ul>
-                <li className='active'>Featured</li>
-                <li>Squawker</li>
-                <li>Calorie Counter</li>
-                <li>My Virtual Pantry</li>
-                <li>Brass Band of Central Florida</li>
-            </ul>
             <div className="container">
-                <div className="item">
-                    <img src="https://picsum.photos/200" alt="" />
-                    <h3>Squawker</h3>
-                </div>
-                <div className="item">
-                    <img src="https://picsum.photos/200" alt="" />
-                    <h3>Squawker</h3>
-                </div>
-                <div className="item">
-                    <img src="https://picsum.photos/200" alt="" />
-                    <h3>Squawker</h3>
-                </div>
-                <div className="item">
-                    <img src="https://picsum.photos/200" alt="" />
-                    <h3>Squawker</h3>
-                </div>
+            {list.map((item) => (
+                    <ProjectList title={item.title} id={item.id} />
+                ))}
             </div>
         </div>
     )

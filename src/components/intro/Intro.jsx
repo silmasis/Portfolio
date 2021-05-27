@@ -1,4 +1,4 @@
-import './Intro.scss'
+import './intro.scss'
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import { init } from 'ityped';
 import { useEffect, useRef } from 'react';
